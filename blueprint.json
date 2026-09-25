@@ -2,23 +2,138 @@
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
   "landingPage": "/",
   "login": false,
-  "preferredVersions": { "php": "8.3", "wp": "latest" },
-  "features": { "networking": true },
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
   "steps": [
-    { "step": "installPlugin", "pluginData": { "resource": "wordpress.org/plugins", "slug": "woocommerce" }, "options": { "activate": true } },
-    { "step": "installTheme", "themeData": { "resource": "url", "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/isn.zip" }, "options": { "activate": true } },
-    { "step": "mkdir", "path": "/wordpress/isn-images" },
-    { "step": "writeFile", "path": "/wordpress/isn-images/anabol-hardcore.webp", "data": { "resource": "url", "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/anabol-hardcore.webp" } },
-    { "step": "writeFile", "path": "/wordpress/isn-images/rule1-mass-gainer.webp", "data": { "resource": "url", "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/rule1-mass-gainer.webp" } },
-    { "step": "writeFile", "path": "/wordpress/isn-images/mhp-up-your-mass.webp", "data": { "resource": "url", "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/mhp-up-your-mass.webp" } },
-    { "step": "writeFile", "path": "/wordpress/isn-images/euphoriq.webp", "data": { "resource": "url", "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/euphoriq.webp" } },
-    { "step": "writeFile", "path": "/wordpress/isn-images/rule1-citrulline.webp", "data": { "resource": "url", "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/rule1-citrulline.webp" } },
-    { "step": "writeFile", "path": "/wordpress/isn-images/carnivor-shred.webp", "data": { "resource": "url", "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/carnivor-shred.webp" } },
-    { "step": "writeFile", "path": "/wordpress/isn-images/nox-legendary.webp", "data": { "resource": "url", "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/nox-legendary.webp" } },
-    { "step": "writeFile", "path": "/wordpress/isn-images/water-bottle.webp", "data": { "resource": "url", "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/water-bottle.webp" } },
-    { "step": "writeFile", "path": "/wordpress/isn-images/yoga-mat.webp", "data": { "resource": "url", "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/yoga-mat.webp" } },
-    { "step": "writeFile", "path": "/wordpress/isn-images/barbell-pad.webp", "data": { "resource": "url", "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/barbell-pad.webp" } },
-    { "step": "writeFile", "path": "/wordpress/isn-setup.php", "data": { "resource": "url", "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/setup.php" } },
-    { "step": "runPHP", "code": "<?php require \"/wordpress/isn-setup.php\";" }
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "woocommerce"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/isn.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "mkdir",
+      "path": "/wordpress/isn-images"
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/isn-images/anabol-hardcore.webp",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/anabol-hardcore.webp"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/isn-images/rule1-mass-gainer.webp",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/rule1-mass-gainer.webp"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/isn-images/mhp-up-your-mass.webp",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/mhp-up-your-mass.webp"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/isn-images/euphoriq.webp",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/euphoriq.webp"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/isn-images/rule1-citrulline.webp",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/rule1-citrulline.webp"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/isn-images/carnivor-shred.webp",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/carnivor-shred.webp"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/isn-images/nox-legendary.webp",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/nox-legendary.webp"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/isn-images/water-bottle.webp",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/water-bottle.webp"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/isn-images/yoga-mat.webp",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/yoga-mat.webp"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/isn-images/barbell-pad.webp",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/images/barbell-pad.webp"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/isn-setup.php",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/setup.php"
+      }
+    },
+    {
+      "step": "mkdir",
+      "path": "/wordpress/wp-content/mu-plugins"
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/mu-plugins/isn-storefront.php",
+      "data": "<?php\n// Shop demo link: show the store as a customer sees it.\nadd_filter( 'show_admin_bar', '__return_false' );\n"
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require \"/wordpress/isn-setup.php\";"
+    }
   ]
 }
