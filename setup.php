@@ -160,3 +160,10 @@ foreach ( $products as [ $slug, $name, $brand, $category, $goals, $price, $spec,
 
 update_option( 'permalink_structure', '/%postname%/' );
 flush_rewrite_rules();
+
+// Skip WooCommerce's first-run redirect and setup checklist so the admin opens on the store itself.
+delete_transient( '_wc_activation_redirect' );
+update_option( 'woocommerce_task_list_hidden_lists', [ 'setup', 'extended' ] );
+update_option( 'woocommerce_task_list_complete', 'yes' );
+update_option( 'woocommerce_show_marketplace_suggestions', 'no' );
+update_option( 'woocommerce_admin_install_timestamp', time() - WEEK_IN_SECONDS );
