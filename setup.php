@@ -8,6 +8,15 @@ require_once ABSPATH . 'wp-admin/includes/media.php';
 require_once ABSPATH . 'wp-admin/includes/file.php';
 require_once ABSPATH . 'wp-admin/includes/image.php';
 
+// Fast demo build: the photos are already web-sized, so skip making thumbnails of each one.
+// (Real hosting can regenerate thumbnails later.)
+if ( defined( 'ISN_FAST' ) && ISN_FAST ) {
+	add_filter( 'intermediate_image_sizes_advanced', '__return_empty_array' );
+	add_filter( 'big_image_size_threshold', '__return_false' );
+	add_filter( 'woocommerce_background_image_regeneration', '__return_false' );
+	add_filter( 'woocommerce_resize_images', '__return_false' );
+}
+
 // Store settings.
 foreach ( [
 	'blogname'                               => 'Infinite Sports Nutrition',
