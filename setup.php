@@ -8,6 +8,30 @@ require_once ABSPATH . 'wp-admin/includes/media.php';
 require_once ABSPATH . 'wp-admin/includes/file.php';
 require_once ABSPATH . 'wp-admin/includes/image.php';
 
+// The photos are already web-sized, so each one is copied straight into uploads and registered with its
+// size. (media_handle_sideload opens every image, which made the demo slow to build.)
+function isn_sideload( $tmp, $name, $parent, $title ) {
+	$up   = wp_upload_dir();
+	$file = wp_unique_filename( $up['path'], $name );
+	$dest = trailingslashit( $up['path'] ) . $file;
+	if ( ! @rename( $tmp, $dest ) && ! copy( $tmp, $dest ) ) {
+		return new WP_Error( 'isn_copy', 'Could not copy ' . $name );
+	}
+	$type = wp_check_filetype( $file );
+	$size = @getimagesize( $dest ) ?: [ 0, 0 ];
+	$id   = wp_insert_attachment( [ 'post_mime_type' => $type['type'], 'post_title' => $title, 'post_status' => 'inherit', 'guid' => trailingslashit( $up['url'] ) . $file ], $dest, $parent, true, false );
+	if ( is_wp_error( $id ) ) {
+		return $id;
+	}
+	wp_update_attachment_metadata( $id, [ 'width' => $size[0], 'height' => $size[1], 'file' => _wp_relative_upload_path( $dest ), 'sizes' => [], 'image_meta' => [] ] );
+	return $id;
+}
+
+// One transaction for the whole import: SQLite otherwise commits (and syncs to disk) after every query.
+wp_defer_term_counting( true );
+wp_suspend_cache_invalidation( true );
+$wpdb->query( 'START TRANSACTION' );
+
 // Fast demo build: the photos are already web-sized, so skip making thumbnails of each one.
 // (Real hosting can regenerate thumbnails later.)
 if ( defined( 'ISN_FAST' ) && ISN_FAST ) {
@@ -162,7 +186,7 @@ foreach ( $products as [ $slug, $name, $brand, $category, $goals, $price, $spec,
 	if ( file_exists( $file ) ) {
 		$tmp = wp_tempnam( "$slug.webp" );
 		copy( $file, $tmp );
-		$att = media_handle_sideload( [ 'name' => "$slug.webp", 'tmp_name' => $tmp ], $pid, $name );
+		$att = isn_sideload( $tmp, "$slug.webp", $pid, $name );
 		if ( ! is_wp_error( $att ) ) set_post_thumbnail( $pid, $att );
 	}
 }
@@ -176,3 +200,7 @@ update_option( 'woocommerce_task_list_hidden_lists', [ 'setup', 'extended' ] );
 update_option( 'woocommerce_task_list_complete', 'yes' );
 update_option( 'woocommerce_show_marketplace_suggestions', 'no' );
 update_option( 'woocommerce_admin_install_timestamp', time() - WEEK_IN_SECONDS );
+
+$wpdb->query( 'COMMIT' );
+wp_suspend_cache_invalidation( false );
+wp_defer_term_counting( false );
