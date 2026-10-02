@@ -47,6 +47,22 @@
       }
     },
     {
+      "step": "writeFile",
+      "path": "/wordpress/isn-import-products.php",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/import-products.php"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/isn-products.json",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/salvatorewanjohi-a11y/infinite-sports-nutrition-demo/main/products.json"
+      }
+    },
+    {
       "step": "mkdir",
       "path": "/wordpress/wp-content/mu-plugins"
     },

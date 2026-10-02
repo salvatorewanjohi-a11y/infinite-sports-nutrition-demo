@@ -1,0 +1,724 @@
+[
+ {
+  "slug": "nitro-tech-whey-gold-5lb",
+  "name": "MuscleTech Nitro-Tech Whey Gold 5 lb – Double Rich Chocolate",
+  "brand": "MuscleTech",
+  "category": "Protein",
+  "goals": [
+   "Muscle Building",
+   "Recovery"
+  ],
+  "spec": "5 lb",
+  "regular_price": 13500,
+  "sale_price": 13000,
+  "description": "MuscleTech Nitro-Tech Whey Gold is designed to help build muscle, with fast-absorbing whey protein peptides that support the insulin response and improve the delivery of nutrients to the muscles.",
+  "images": [
+   "nitro-tech-whey-gold-5lb.webp"
+  ],
+  "featured": true
+ },
+ {
+  "slug": "nitro-tech-whey-4lb",
+  "name": "MuscleTech Nitro-Tech Whey Protein 4 lb",
+  "brand": "MuscleTech",
+  "category": "Protein",
+  "goals": [
+   "Muscle Building",
+   "Recovery"
+  ],
+  "spec": "4 lb",
+  "regular_price": 12000,
+  "sale_price": 11500,
+  "description": "A fast-digesting whey protein shake for building and repairing muscle after training.",
+  "images": [
+   "nitro-tech-whey-4lb.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "bpi-iso-hd-5lb",
+  "name": "BPI Sports ISO HD Whey Isolate 5 lb",
+  "brand": "BPI Sports",
+  "category": "Protein",
+  "goals": [
+   "Muscle Building",
+   "Weight Loss",
+   "Recovery"
+  ],
+  "spec": "5 lb",
+  "regular_price": 13500,
+  "sale_price": 13000,
+  "description": "A whey protein isolate: high protein per scoop with very little fat, carbs or sugar.",
+  "images": [
+   "bpi-iso-hd-5lb.webp"
+  ],
+  "featured": true
+ },
+ {
+  "slug": "nutrex-whey-5lb",
+  "name": "Nutrex Whey Protein 5 lb",
+  "brand": "Nutrex",
+  "category": "Protein",
+  "goals": [
+   "Muscle Building",
+   "Recovery"
+  ],
+  "spec": "5 lb",
+  "regular_price": 8800,
+  "sale_price": 8200,
+  "description": "A fast-digesting whey protein shake for building and repairing muscle after training.",
+  "images": [
+   "nutrex-whey-5lb.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "applied-diet-whey-1-8kg",
+  "name": "Applied Nutrition Diet Whey 1.8 kg",
+  "brand": "Applied Nutrition",
+  "category": "Protein",
+  "goals": [
+   "Weight Loss",
+   "Muscle Building"
+  ],
+  "spec": "1.8 kg",
+  "regular_price": 10000,
+  "sale_price": 9500,
+  "description": "A lean protein for building muscle while you cut, with fewer calories per scoop.",
+  "images": [
+   "applied-diet-whey-1-8kg.webp"
+  ],
+  "featured": true
+ },
+ {
+  "slug": "carnivor-shred",
+  "name": "MuscleMeds Carnivor Shred – Chocolate, 4.35 lb",
+  "brand": "MuscleMeds",
+  "category": "Protein",
+  "goals": [
+   "Weight Loss",
+   "Muscle Building"
+  ],
+  "spec": "23g Protein",
+  "regular_price": 9500,
+  "sale_price": null,
+  "description": "Hydrolyzed beef protein isolate with a thermogenic complex. 23g protein and 175mg caffeine per serving, with 0g sugar and 0g fat. Lactose, dairy and gluten free. 56 servings, chocolate flavour. Contains caffeine: not for use close to bedtime.",
+  "images": [
+   "carnivor-shred.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "on-creatine-300g",
+  "name": "Optimum Nutrition Micronized Creatine 300 g",
+  "brand": "Optimum Nutrition",
+  "category": "Creatine",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "300 g",
+  "regular_price": 4500,
+  "sale_price": 4300,
+  "description": "Creatine monohydrate helps you push out extra reps and build strength and muscle over time.",
+  "images": [
+   "on-creatine-300g.webp"
+  ],
+  "featured": true
+ },
+ {
+  "slug": "platinum-creatine-400g",
+  "name": "MuscleTech Platinum 100% Creatine 400 g",
+  "brand": "MuscleTech",
+  "category": "Creatine",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "400 g",
+  "regular_price": 4500,
+  "sale_price": 4200,
+  "description": "Creatine monohydrate helps you push out extra reps and build strength and muscle over time.",
+  "images": [
+   "platinum-creatine-400g.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "cell-tech-6lb",
+  "name": "MuscleTech Cell-Tech Creatine 6 lb",
+  "brand": "MuscleTech",
+  "category": "Creatine",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "6 lb",
+  "regular_price": 4500,
+  "sale_price": 4000,
+  "description": "A creatine formula for strength, power and muscle size, taken around your training.",
+  "images": [
+   "cell-tech-6lb.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "creatine-chews-30",
+  "name": "MuscleTech Creatine Chews – 30 Servings",
+  "brand": "MuscleTech",
+  "category": "Creatine",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "30 Servings",
+  "regular_price": 4500,
+  "sale_price": 4000,
+  "description": "Creatine in a chewable form: no shaker or mixing needed.",
+  "images": [
+   "creatine-chews-30.webp",
+   "creatine-chews-30-2.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "applied-creatine-250g",
+  "name": "Applied Nutrition Creatine 250 g – Strawberry & Raspberry",
+  "brand": "Applied Nutrition",
+  "category": "Creatine",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "250 g",
+  "regular_price": 3300,
+  "sale_price": 3000,
+  "description": "Creatine monohydrate helps you push out extra reps and build strength and muscle over time.",
+  "images": [
+   "applied-creatine-250g.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "nutrex-creatine-300g",
+  "name": "Nutrex Creatine Monohydrate 300 g",
+  "brand": "Nutrex",
+  "category": "Creatine",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "300 g",
+  "regular_price": 3000,
+  "sale_price": 2800,
+  "description": "Creatine monohydrate helps you push out extra reps and build strength and muscle over time.",
+  "images": [
+   "nutrex-creatine-300g.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "rc-creatine",
+  "name": "RC Creatine",
+  "brand": "Ronnie Coleman",
+  "category": "Creatine",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "",
+  "regular_price": 3000,
+  "sale_price": 2800,
+  "description": "Creatine monohydrate helps you push out extra reps and build strength and muscle over time.",
+  "images": [
+   "rc-creatine.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "skull-labs-creatine-300g",
+  "name": "Skull Labs Creatine 300 g",
+  "brand": "Skull Labs",
+  "category": "Creatine",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "300 g",
+  "regular_price": 3000,
+  "sale_price": 2800,
+  "description": "Creatine monohydrate helps you push out extra reps and build strength and muscle over time. Energy · Recovery · Muscle growth.",
+  "images": [
+   "skull-labs-creatine-300g.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "gat-creatine-300g",
+  "name": "GAT Sport Creatine 300 g",
+  "brand": "GAT Sport",
+  "category": "Creatine",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "300 g",
+  "regular_price": 3000,
+  "sale_price": 2700,
+  "description": "Creatine monohydrate helps you push out extra reps and build strength and muscle over time.",
+  "images": [
+   "gat-creatine-300g.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "muscle-rulz-creatine-300g",
+  "name": "Muscle Rulz Creatine 300 g",
+  "brand": "Muscle Rulz",
+  "category": "Creatine",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "300 g",
+  "regular_price": 2800,
+  "sale_price": 2600,
+  "description": "Creatine monohydrate helps you push out extra reps and build strength and muscle over time. Maximum strength, energy and enhanced recovery.",
+  "images": [
+   "muscle-rulz-creatine-300g.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "quamtrax-creatine-300g",
+  "name": "Quamtrax Creatine Monohydrate 300 g – 100 Servings",
+  "brand": "Quamtrax",
+  "category": "Creatine",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "100 Servings",
+  "regular_price": null,
+  "sale_price": null,
+  "description": "Creatine monohydrate helps you push out extra reps and build strength and muscle over time.",
+  "images": [
+   "quamtrax-creatine-300g.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "mutant-mass-5lb",
+  "name": "Mutant Mass 5 lb",
+  "brand": "Mutant",
+  "category": "Mass Gainers",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "5 lb",
+  "regular_price": 7500,
+  "sale_price": 7200,
+  "description": "A high-calorie mass gainer for hard gainers who struggle to eat enough to grow.",
+  "images": [
+   "mutant-mass-5lb.webp"
+  ],
+  "featured": true
+ },
+ {
+  "slug": "rule1-mass-gainer",
+  "name": "Rule 1 Mass Gainer – Cookies & Crème",
+  "brand": "Rule 1",
+  "category": "Mass Gainers",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "40g Protein",
+  "regular_price": 6500,
+  "sale_price": 6000,
+  "description": "A high-calorie gainer built on an all-whey protein blend. Per full serving (2 heaping scoops): 1,230 calories, 40g protein, 252g carbs, about 9g BCAAs and 1g creatine. Cookies & Crème flavour.",
+  "images": [
+   "rule1-mass-gainer.webp",
+   "rule1-mass-gainer-2.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "mhp-up-your-mass",
+  "name": "MHP Up Your Mass XXXL 1350",
+  "brand": "MHP",
+  "category": "Mass Gainers",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "50g Protein",
+  "regular_price": 6500,
+  "sale_price": null,
+  "description": "Serious bulking fuel for hard gainers: 1,350 calories, 50g multi-phase protein, 250g carbs, 11g BCAAs and 23g EAAs per full serving (6 scoops).",
+  "images": [
+   "mhp-up-your-mass.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "usn-super-grow-beast-4kg",
+  "name": "USN Super Grow Beast 4 kg",
+  "brand": "USN",
+  "category": "Mass Gainers",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "4 kg",
+  "regular_price": 5500,
+  "sale_price": 5000,
+  "description": "A high-calorie mass gainer for hard gainers who struggle to eat enough to grow.",
+  "images": [
+   "usn-super-grow-beast-4kg.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "usn-hyperbolic-mass-2kg",
+  "name": "USN Hyperbolic Mass 2 kg",
+  "brand": "USN",
+  "category": "Mass Gainers",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "2 kg",
+  "regular_price": 3800,
+  "sale_price": 3500,
+  "description": "A high-calorie mass gainer for hard gainers who struggle to eat enough to grow.",
+  "images": [
+   "usn-hyperbolic-mass-2kg.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "usn-hyperbolic-mass-1kg",
+  "name": "USN Hyperbolic Mass 1 kg",
+  "brand": "USN",
+  "category": "Mass Gainers",
+  "goals": [
+   "Muscle Building"
+  ],
+  "spec": "1 kg",
+  "regular_price": 2800,
+  "sale_price": 2500,
+  "description": "A high-calorie mass gainer for hard gainers who struggle to eat enough to grow.",
+  "images": [
+   "usn-hyperbolic-mass-1kg.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "redcon1-total-war-30",
+  "name": "Redcon1 Total War Pre-Workout – 30 Servings",
+  "brand": "Redcon1",
+  "category": "Pre-Workout",
+  "goals": [
+   "Energy & Focus"
+  ],
+  "spec": "30 Servings",
+  "regular_price": 3500,
+  "sale_price": 3200,
+  "description": "A pre-workout for energy, focus and pump. Check the label for its caffeine content.",
+  "images": [
+   "redcon1-total-war-30.webp",
+   "redcon1-total-war-30-2.webp",
+   "redcon1-total-war-30-3.webp"
+  ],
+  "featured": true
+ },
+ {
+  "slug": "gat-nitraflex",
+  "name": "GAT Sport Nitraflex Pre-Workout",
+  "brand": "GAT Sport",
+  "category": "Pre-Workout",
+  "goals": [
+   "Energy & Focus"
+  ],
+  "spec": "",
+  "regular_price": 3500,
+  "sale_price": 3300,
+  "description": "A pre-workout for energy, focus and pump. Check the label for its caffeine content.",
+  "images": [
+   "gat-nitraflex.webp"
+  ],
+  "featured": true
+ },
+ {
+  "slug": "gat-nitraflex-hydration",
+  "name": "GAT Sport Nitraflex Hydration",
+  "brand": "GAT Sport",
+  "category": "Pre-Workout",
+  "goals": [
+   "Energy & Focus"
+  ],
+  "spec": "",
+  "regular_price": 4300,
+  "sale_price": 4000,
+  "description": "A stimulant-free pump and endurance formula. Stack it with your pre-workout or take it on its own.",
+  "images": [
+   "gat-nitraflex-hydration.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "vapor-x5-30",
+  "name": "MuscleTech Vapor X5 Pre-Workout – 30 Servings",
+  "brand": "MuscleTech",
+  "category": "Pre-Workout",
+  "goals": [
+   "Energy & Focus"
+  ],
+  "spec": "30 Servings",
+  "regular_price": 3600,
+  "sale_price": 3500,
+  "description": "A pre-workout for energy, focus and pump. Check the label for its caffeine content.",
+  "images": [
+   "vapor-x5-30.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "nox-legendary",
+  "name": "BSN N.O.-XPLODE Legendary Pre-Workout – 30 Servings",
+  "brand": "BSN",
+  "category": "Pre-Workout",
+  "goals": [
+   "Energy & Focus"
+  ],
+  "spec": "275mg Caffeine",
+  "regular_price": 4200,
+  "sale_price": null,
+  "description": "Explosive energy, intense focus and powerful pumps for high-intensity training. 275mg caffeine per serving, 30 servings. High caffeine dose: not recommended if you are sensitive to caffeine.",
+  "images": [
+   "nox-legendary.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "euphoriq",
+  "name": "MuscleTech EuphoriQ Pre-Workout – Boogieman Punch",
+  "brand": "MuscleTech",
+  "category": "Pre-Workout",
+  "goals": [
+   "Energy & Focus"
+  ],
+  "spec": "300mg Paraxanthine",
+  "regular_price": 3500,
+  "sale_price": null,
+  "description": "Clean, strong energy from 300mg paraxanthine (enfinity®), plus 3.2g beta-alanine, 2.5g betaine, taurine, L-tyrosine, AlphaSize® A-GPC, NeuroFactor® and Huperzine A for focus. 20 servings, Boogieman Punch flavour.",
+  "images": [
+   "euphoriq.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "rule1-citrulline",
+  "name": "Rule 1 Citrulline – Unflavoured",
+  "brand": "Rule 1",
+  "category": "Pre-Workout",
+  "goals": [
+   "Energy & Focus"
+  ],
+  "spec": "3g L-Citrulline",
+  "regular_price": 3500,
+  "sale_price": null,
+  "description": "A clean single-ingredient L-Citrulline (3,000mg per serving) for bigger pumps and better endurance. Stimulant-free and unflavoured, so it stacks easily with your pre-workout, BCAAs or protein shake.",
+  "images": [
+   "rule1-citrulline.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "xtend-bcaa-30",
+  "name": "Xtend BCAA – 30 Servings",
+  "brand": "Xtend",
+  "category": "Amino Acids",
+  "goals": [
+   "Recovery"
+  ],
+  "spec": "30 Servings",
+  "regular_price": 4000,
+  "sale_price": 3800,
+  "description": "Branched-chain amino acids (BCAAs) to sip during or after training for recovery.",
+  "images": [
+   "xtend-bcaa-30.webp"
+  ],
+  "featured": true
+ },
+ {
+  "slug": "applied-amino-fuel",
+  "name": "Applied Nutrition Amino Fuel",
+  "brand": "Applied Nutrition",
+  "category": "Amino Acids",
+  "goals": [
+   "Recovery"
+  ],
+  "spec": "",
+  "regular_price": 5000,
+  "sale_price": 4500,
+  "description": "An amino acid formula to support muscle recovery during and after training.",
+  "images": [
+   "applied-amino-fuel.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "mega-sport-chicken-amino",
+  "name": "Mega Sport Chicken Amino",
+  "brand": "Mega Sport",
+  "category": "Amino Acids",
+  "goals": [
+   "Recovery",
+   "Muscle Building"
+  ],
+  "spec": "",
+  "regular_price": 3800,
+  "sale_price": 3500,
+  "description": "Made from hydrolysed chicken breast protein, which contains all the essential amino acids in the right proportions for growing lean muscle. Chicken breast is also naturally low in fat and provides potassium, magnesium and vitamins A, B3, B6 and K.",
+  "images": [
+   "mega-sport-chicken-amino.webp",
+   "mega-sport-chicken-amino-2.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "mega-sport-beef-amino",
+  "name": "Mega Sport Beef Amino",
+  "brand": "Mega Sport",
+  "category": "Amino Acids",
+  "goals": [
+   "Recovery",
+   "Muscle Building"
+  ],
+  "spec": "",
+  "regular_price": 3800,
+  "sale_price": 3500,
+  "description": "Amino acid tablets from animal protein, an easy way to top up your daily protein.",
+  "images": [
+   "mega-sport-beef-amino.webp",
+   "mega-sport-beef-amino-2.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "hydroxycut",
+  "name": "MuscleTech Hydroxycut",
+  "brand": "MuscleTech",
+  "category": "Fat Burners",
+  "goals": [
+   "Weight Loss"
+  ],
+  "spec": "",
+  "regular_price": 3000,
+  "sale_price": 2800,
+  "description": "A fat burner to support your weight-loss plan alongside training and a calorie deficit.",
+  "images": [
+   "hydroxycut.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "nutrex-tribulus",
+  "name": "Nutrex Tribulus",
+  "brand": "Nutrex",
+  "category": "Wellness",
+  "goals": [],
+  "spec": "",
+  "regular_price": 3000,
+  "sale_price": 2800,
+  "description": "Tribulus terrestris, a traditional herb popular with men for vitality and training drive.",
+  "images": [
+   "nutrex-tribulus.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "gat-zmag-t",
+  "name": "GAT Sport ZMAG-T",
+  "brand": "GAT Sport",
+  "category": "Wellness",
+  "goals": [
+   "Recovery"
+  ],
+  "spec": "",
+  "regular_price": 3000,
+  "sale_price": 2800,
+  "description": "A zinc, magnesium and vitamin B6 formula, taken before bed to support sleep and recovery.",
+  "images": [
+   "gat-zmag-t.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "swanson-lions-mane",
+  "name": "Swanson Lion's Mane Mushroom",
+  "brand": "Swanson",
+  "category": "Wellness",
+  "goals": [
+   "Energy & Focus"
+  ],
+  "spec": "",
+  "regular_price": 3500,
+  "sale_price": 3000,
+  "description": "Lion's Mane mushroom, popular for focus and brain health.",
+  "images": [
+   "swanson-lions-mane.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "anabol-hardcore",
+  "name": "Nutrex Anabol Hardcore – 60 Liquid Capsules",
+  "brand": "Nutrex",
+  "category": "Performance",
+  "goals": [
+   "Muscle Building",
+   "Recovery"
+  ],
+  "spec": "60 Liquid Caps",
+  "regular_price": 3500,
+  "sale_price": null,
+  "description": "A non-steroidal, non-hormonal anabolic activator made to back up serious weight training and a high-protein diet. Supports muscle protein synthesis, lean muscle and recovery between hard sessions. Fast-acting liquid capsules, vegetarian-friendly.",
+  "images": [
+   "anabol-hardcore.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "water-bottle",
+  "name": "Large Capacity Sports Water Bottle (~2L)",
+  "brand": "",
+  "category": "Gym Accessories",
+  "goals": [],
+  "spec": "2 Litres",
+  "regular_price": 1800,
+  "sale_price": null,
+  "description": "Keep hydration within reach at the gym, outdoors or at your desk. Around 2 litres, with a built-in straw for easy drinking mid-workout.",
+  "images": [
+   "water-bottle.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "yoga-mat",
+  "name": "Eco-Friendly EVA Yoga & Exercise Mat – Green",
+  "brand": "",
+  "category": "Gym Accessories",
+  "goals": [],
+  "spec": "Non-Slip Grip",
+  "regular_price": 2000,
+  "sale_price": null,
+  "description": "A comfortable, grippy EVA mat for yoga, stretching, home workouts and floor exercises. Vibrant green.",
+  "images": [
+   "yoga-mat.webp"
+  ],
+  "featured": false
+ },
+ {
+  "slug": "barbell-pad",
+  "name": "Barbell Pad – Red",
+  "brand": "",
+  "category": "Gym Accessories",
+  "goals": [],
+  "spec": "Squats & Hip Thrusts",
+  "regular_price": 1500,
+  "sale_price": null,
+  "description": "A durable padded sleeve that makes squats, hip thrusts and other barbell lifts more comfortable. Red.",
+  "images": [
+   "barbell-pad.webp"
+  ],
+  "featured": false
+ }
+]
